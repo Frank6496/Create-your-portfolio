@@ -1,1 +1,39 @@
+* {
+  margin: auto;
+  padding: auto;
+  width: 100%;
+}
+.head {
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: 30px;
+}
+.summary {
+  margin-left: 100px;
+}
+.education {
+  margin-left: 100px;
+}
+.certs {
+  justify-content: first baseline;
+  margin-left: 100px;
+  /* text-align: center; */
+  /* background-color: aliceblue; */
+  padding: 20px;
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#skills {
+  display: flex;
+  /* width: 900px; */
+  /* margin-right: 50px; */
+}
+#skills > li {
+  /* margin-right: 20px; */
+  font-size: 15px;
+  font-weight: 600;
 
+  /* overflow-x: hidden; */
+}
